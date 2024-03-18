@@ -49,7 +49,7 @@
 #endif
     #define ESP_FS_WS_CONFIG_FOLDER "/config"
     #define ESP_FS_WS_CONFIG_FILE ESP_FS_WS_CONFIG_FOLDER "/config.json"
-    #define LIB_URL "https://github.com/cotestatnt/async-esp-fs-webserver/"
+    #define LIB_URL "https://github.com/xboxpro1/async-esp-fs-webserver/"
 
     #include "setup_htm.h"
     #include "SetupConfig.hpp"
