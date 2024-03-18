@@ -50,7 +50,7 @@ function getParameters() {
     $('esp-mode').innerHTML = data.mode;
     $('esp-ip').innerHTML = `<a href="${esp}">${esp}</a>`;
     $('firmware').innerHTML = data.firmware;
-    $('about').innerHTML = 'Created with ' + data.liburl;
+    $('about').innerHTML = data.liburl;
     $('about').setAttribute('href', data.liburl);
     configFile = data.path;
     
